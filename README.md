@@ -7,6 +7,6 @@
 1. run `npm start`
 
 ## code along outline
-Week 1: (July 17) React Context
-Week 2: (July 24) Routing
-Week 3: (July 31) Hooks + Axios
+- Week 1: (July 17) React Context
+- Week 2: (July 24) Routing
+- Week 3: (July 31) Hooks + Axios
