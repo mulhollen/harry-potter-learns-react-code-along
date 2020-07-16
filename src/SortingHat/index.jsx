@@ -1,11 +1,9 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 
 const SortingHat = () => {
 
   return (
-    <main className="letterhead">
-        <h1>Hello Hogwarts</h1>
-    </main>
+    <main className="letterhead" />
   );
 };
 

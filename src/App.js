@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import SortingHat from "./SortingHat"
-
+import MyCommonRoom from "./MyCommonRoom"
 
 function App() {
   return (
-    <SortingHat />
+    <MyCommonRoom />
   );
 }
 
