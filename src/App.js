@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 import MyCommonRoom from "./MyCommonRoom"
+import { HogwartsProvider } from "./HogwartsContext/";
+
 
 function App() {
   return (
-    <MyCommonRoom />
+    <HogwartsProvider>
+      <MyCommonRoom />
+    </HogwartsProvider>
   );
 }
 
