@@ -1,5 +1,8 @@
 import React from "react";
 
+const HogwartsContext = React.createContext();
+const { Provider, Consumer } = HogwartsContext;
+
 const HogwartsProvider = props => {
   const { children } = props;
   const hogwartsData = {
@@ -8,12 +11,18 @@ const HogwartsProvider = props => {
   };
 
   return (
-    <div />
+    <Provider
+      value={{
+        hogwartsData
+      }}
+    >
+      {children}
+    </Provider>
   );
 };
 
 
-export { HogwartsProvider };
+export { HogwartsProvider, Consumer as HogwartsConsumer, HogwartsContext };
 
 
 
