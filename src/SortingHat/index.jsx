@@ -3,7 +3,9 @@ import React from "react";
 const SortingHat = () => {
 
   return (
-    <main className="letterhead" />
+    <main className="letterhead">
+      <h1>Ready to Sort</h1>
+    </main>
   );
 };
 

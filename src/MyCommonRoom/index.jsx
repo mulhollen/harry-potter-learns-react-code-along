@@ -4,7 +4,7 @@ const MyCommonRoom = () => {
 
   return (
     <main className="commonroom">
-        <h1>Hello Hogwarts</h1>
+        <h1>Hello {hogwartsData.name}</h1>
     </main>
   );
 };
