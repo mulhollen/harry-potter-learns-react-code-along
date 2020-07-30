@@ -6,7 +6,7 @@ const MyCommonRoom = () => {
   console.log("hogwartsData", hogwartsData);
   return (
     <main className="commonroom">
-        <h1>Hello Hogwarts, {hogwartsData.name} {hogwartsData.house}</h1>
+        <h1>Hello, {hogwartsData.name}</h1>
     </main>
   );
 };

@@ -1,0 +1,36 @@
+
+ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #470063;
+    padding: 0 15px;
+  }
+
+  .nav-link:hover{
+      color: #B30089;
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.space-around {
+    justify-content: space-around;
+  }
+
+.active{
+  color: #B30089;
+}
+  

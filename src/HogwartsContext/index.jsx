@@ -6,8 +6,8 @@ const { Provider, Consumer } = HogwartsContext;
 const HogwartsProvider = props => {
   const { children } = props;
   const hogwartsData = {
-    name: "Lindsay",
-    house: "slytherin"
+      name: 'Melissa',
+      house: 'Ravenclaw'
   };
 
   return (
